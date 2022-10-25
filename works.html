@@ -21,6 +21,28 @@
       </div>
     </nav>
   <div class="summary">
+    <h1>How does this work?</h1>
+    <p>You might be wondering how this magnificent program called '<em>The Mem-Bot</em>' works. Not just the programming and logistics but how it is managed, ensured to be safe and kept unleaked from everyone. So that people can trust me and so that you get some much neaded transparency I have decided to split this webpage into 3 sections the <a href="#computing">software design</a>, the <a href="#manage">management</a> and last but the most important part <a href="#safety">safety and security</a>.</p>
+  </div>
+  <div id="computing">
+    <h2>The software standpoint</h2>
+    <p>Well I am not going to leak how to make <em>The Mem-Bot</em> at home but I will share how it is designed. The answer to the question 'how does <em>The Mem-Bot</em> do stuff?' is complicated with 100s of lines so I'll just crush it down. Because of some smart people doing smart things (<strong>Not me</strong>) my program can do 4 things, open websites, read what is written on the website, click stuff and finally think and that's all I need. To make everything easier I essentially split my program into sections like 'answer_question' and 'open_quiz' which do certain things, for example 'open_quiz' will open the quiz using selenium. So <em>The Mem-Bot</em> first opens memrise and logs in, it then opens the course, afterwards it reads the question, thinks and figures out the answer and then clicks it, that's it. It's a computer opening stuff, reading stuff and clicking stuff (<strong>Of course it's a bit more than that</strong>) but that is, from a birds eye view how <em>The Mem-Bot</em> runs. Anyone wondering what I used to make <em>The Mem-Bot</em> all of the code is in a programming language called 'python' and uses a libary called 'selenium' and multiple in-built libaries like 'os'.</p>
+  </div>
+  <div id="manage">
+    <h2>Management of <em>The Mem-Bot</em></h2>
+    <p><em>The Mem-Bot</em> is not against any privacy-policy or school rule, I mean it would be outrageous to ban an 11 year old from learning python to a professional level, learning selenium used in automation testing and spending hours to make <em>The Mem-Bot</em> which makes memrise a piece of cake. I mean everyone's lives would dramatically change wouldn't it? Small rant aside <em>The Mem-Bot</em> is managed by (as of now) 1 person only but I'm looking to expand the buisness possibilities by having more people work on <em>The Mem-Bot</em> and sell the <em>The Mem-Bot</em> to more trusted people. If you are intersested to invest or help please get in contact with me.</p>
+  </div>
+  <div id="safety">
+    <h2>Safety & 'Jamming' features</h2>
+    <p>So how does one without hacking onto anothers computer, manage to stop them from running <em>The Mem-Bot</em> for posssiblly breaking or violating the rules? Guess who had to solve this questions (spoiler: it was me!) This is how I tackled this mountain of a question.</p>
+    <ol>
+      <li>Make an entire website perhaps like <a href="index.html">This</a> one</li>
+      <li>Make a webpage called 'Limiter' maybe like <a href="limiter.html">This</a></li>
+      <li>Add a piece of software into <em>The Mem-Bot</em> that reads that webpage</li>
+      <li>Make it so that depending on what is on the webpage <em>The Mem-Bot</em> either runs for that person or it does not. Maybe the names of the people that are allowed to run <em>The Mem-Bot</em> are on that webpage, and then if the person's name is next to something that says they can run, lets say courses 1, 2, 3, 4, 8 wouldn't we be able to control which courses are usable? How about we tack on a word at the end that says if they have access to threading or not? Well then well you get <a href="limiter.html">This</a>!</li>
+      <li>Add a section at the bottom that controls which versions are still allowed to run.</li>
+      <li>This could also make it so that people can see who has access to what wouldn't it?</li>
+    </ol>
   </div>
 </body>
 </html>
