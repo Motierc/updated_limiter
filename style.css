@@ -1,10 +1,51 @@
-body{
-    background-color: rgb(38, 38, 38);
-    color: lightgray;
+:root{
+    --nav-bac: #293749;
 }
-h1{
-    font-size: 60;
-    font-weight: 200;
-    font-family:'Times New Roman', Times, serif;
+
+*{
+    color: #292a2e;
+    font-size: 110%;
+    background-color: transparent;
+}
+h1,h2 {
+    font-size: 300%;
+}
+
+h1, h2, h3, p{
+    padding-left: 1%;
+}
+li{
+    font-size: 100%;
+}
+img{
+    border: 2px solid #292a2e;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin: 5%;
+}
+
+.navbar{ background-color: var(--nav-bac);}
+.nav-text{
+    color: white;
+    background-color: var(--nav-bac);
+}
+.navbar-collapse{
+    margin-left: 5%;
+    background-color: var(--nav-bac);
+}
+.navbar-brand{
+    font-size: 25px;
+    background-color: var(--nav-bac);
     text-align: center;
+    margin-bottom: 0%;
 }
+
+.summary{
+    background-color: #fdf6e2;
+    padding-bottom: 2px;
+    border-bottom: 10px solid;
+    border-top: 10px solid black;
+    margin-bottom: 25px;}

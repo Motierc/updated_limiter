@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(38, 38, 38);
+    color: lightgray;
+}
+h1{
+    font-size: 60;
+    font-weight: 200;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
