@@ -26,7 +26,6 @@ img{
     width: 70%;
     margin: 5%;
 }
-
 .navbar{ background-color: var(--nav-bac);}
 .nav-text{
     color: white;
@@ -49,3 +48,11 @@ img{
     border-bottom: 10px solid;
     border-top: 10px solid black;
     margin-bottom: 25px;}
+
+.logo{
+    padding:0px;
+    border: none;
+    margin: 20px;
+    width: 10%;
+    display: inline;
+}
